@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio 5</title>
-    <style media="screen" type="text/css"></style>
+    <style media="screen" type="text/css">
+      .producto {
+        margin: auto;
+        width: 330px;
+      }
+
+      .producto__img {
+        width: 100%;
+      }
+
+      .producto__oferta {
+        position: absolute;
+        right: 35%;
+        top: 5%;
+        width: 330px;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <img
-        src="assets/img/ejercicio-5.jpg"
-        alt="imagen producto"
-        class="producto"
-      />
+    <div class="producto">
       <img
         src="assets/img/ejercicio-5_item.jpg"
         alt="imagen oferta"
-        class="oferta"
+        class="producto__img"
+      />
+      <img
+        src="assets/img/ejercicio-5_ribbon.png"
+        alt="imagen producto"
+        class="producto__oferta"
       />
     </div>
   </body>
