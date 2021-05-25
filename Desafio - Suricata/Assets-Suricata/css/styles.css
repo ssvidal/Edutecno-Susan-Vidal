@@ -1,0 +1,36 @@
+.barra{
+    background-color:#E83E8C !important;
+}
+body{
+    font-family: open sans, sans-serif;
+    
+}
+
+h1{
+    color:#707070;
+    font-weight: bold;
+}
+.color-fondo{
+    background-color: #e83e8c;
+}
+
+.logo{
+    width: 30%;
+}
+
+footer img{
+width: 40px;
+}
+
+.caja{
+    height: 50px;
+}
+.link{
+    font-size: 11px;
+}
+.texto{
+    font-size: 11px;
+}
+.barra-pagos{
+    background-color: #17A2B8;
+}

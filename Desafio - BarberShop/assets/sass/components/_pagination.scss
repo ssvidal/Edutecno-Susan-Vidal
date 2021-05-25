@@ -1,0 +1,41 @@
+.boton-anterior{
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 15px 0px 0px 15px;
+    float: left;
+    border: 1px solid $platinum;
+    color: $raisin-black;
+    background-color: $white;
+    cursor: pointer;
+    &:hover{
+        color: $white;
+        background-color: $raisin-black;
+    }
+}
+.boton-siguiente{
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 0px 15px 15px 0px;
+    float: left;
+    border: 1px solid $platinum;
+    color: $raisin-black;
+    background-color: $white;
+    cursor: pointer;
+    &:hover{
+        color: $white;
+        background-color: $raisin-black;
+    }
+}
+.boton-numero{
+    height: 40px;
+    padding: 10px 20px;
+    float: left;
+    border: 1px solid $platinum;
+    color: $raisin-black;
+    background-color: $white;
+    cursor: pointer;
+    &:hover{
+        color: $white;
+        background-color: $raisin-black;
+    }
+}

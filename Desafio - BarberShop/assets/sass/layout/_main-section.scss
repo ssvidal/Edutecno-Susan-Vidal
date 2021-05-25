@@ -1,0 +1,16 @@
+.main-section{
+    padding: 20px 100px;
+    .main-section__fecha{
+        font-size: $large;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+    }
+    .main-section__parrafo{
+        line-height: 35px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+    .main-section__linea{
+        margin-top: 80px;
+    }
+}

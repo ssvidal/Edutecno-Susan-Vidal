@@ -1,0 +1,20 @@
+//abstracts
+@import "abstracts/variables";
+
+//vendors
+/* @import "vendors/bootstrap_v4.6/bootstrap"; */
+
+//layout
+@import "layout/nav";
+@import "layout/header";
+@import "layout/main-section";
+@import "layout/contacto";
+@import "layout/pagination";
+@import "layout/footer";
+
+//components
+
+@import "components/buttons";
+@import "components/thumbnails";
+@import "components/links";
+@import "components/pagination"

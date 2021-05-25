@@ -1,0 +1,15 @@
+.link-primary{
+    color: $ruddy-pink;
+    font-size: 25px;
+    margin: 20px 30px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        color: $eerie-black;
+    }
+    &:focus{
+        color: $platinum;
+    }
+}

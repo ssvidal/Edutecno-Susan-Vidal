@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto';
+}
+.logo{
+    width: 30px;
+}
+nav{
+    position: fixed !important;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    background-color: #43a4b8;
+}
+header{
+    position: relative;
+}
+
+.descripcion{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.linea{
+    background-color: #43a4b8;
+    height: 3px !important;
+    
+}
+
+.contenedor-icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #43a4b8;
+
+}
+i{
+    font-size: 25px !important;
+}
+.destacado{
+    background-color: black;
+    color: white;
+}
+.imagen-card{
+    height: 140px;
+}
+.card{
+    background-color:  #43a4b8;
+}
+.parrafo-card{
+    color:white;
+    font-size: 14px;
+}
+.formulario{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    height: 50px;
+    background-color: #43a4b8;
+}
+.logo-viajes{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contenedor-footer{
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+i{
+    color: white;
+    margin: 0 5px;
+}

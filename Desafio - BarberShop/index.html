@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+    <!--googlefont-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--Styles-->
+    <link rel="stylesheet" href="./styles.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav navbar navbar-expand-lg navbar-dark navbar-default">
+        <div class="container">
+            <img src="./assets/img/logo.png"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav__item navbar-nav mb-lg-0">
+                    <li class="nav__items nav-item"><a href="#">Nosotros</a></li>
+                    <li class="nav__items nav-item"><a href="#">Trabajos</a></li>
+                    <li class="nav__items nav-item"><a href="#">Blog</a></li>
+                    <li class="nav__items nav-item"><a href="#">Horas</a></li>
+                    <li class="nav__items nav-item"><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header"> 
+        <div class="header__title">5 formas de cuidar tu corte de cabello</div>
+        <a href="#main-section" class="header__button">
+            <i class="fas fa-angle-double-down"></i>
+        </a>
+    </header>
+    <main>
+        <section class="main-section" id="main-section">
+            <p class="main-section__fecha">12 de Abril de 2018</p>
+            <p class="main-section__parrafo">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores hic sequi repudiandae, eum pariatur numquam libero, ipsum illum ut doloribus est recusandae ab non quasi unde iusto sit iure itaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quod explicabo, quae in dicta autem magni at odit facilis, minima dolore ullam, debitis reprehenderit inventore assumenda neque unde nisi ut?
+            </p>
+            <p class="main-section__parrafo">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores magnam aspernatur nulla, sit aliquam autem error ipsa dicta possimus deleniti commodi, distinctio, amet nemo unde? Iure harum vel ullam quos?
+            </p>
+            <p class="main-section__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia nostrum, iste neque, mollitia consequuntur magni debitis perferendis placeat tempora accusantium labore modi dolore, dolorem quasi veniam quam et similique.
+            </p>
+            <p class="main-section__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia nostrum, iste neque, mollitia consequuntur magni debitis perferendis placeat tempora accusantium labore modi dolore, dolorem quasi veniam quam et similique.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, deserunt obcaecati beatae numquam doloremque nam! Asperiores numquam architecto ratione vel eligendi ipsa libero at velit minima beatae! Exercitationem, maiores voluptates.
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <p class="main-section__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia nostrum, iste neque, mollitia consequuntur magni debitis perferendis placeat tempora accusantium labore modi dolore, dolorem quasi veniam quam et similique.
+            </p>
+            <div class="main-section__botones">
+                <button class="main-section__boton small-button">Compartir</button>
+                <button class="main-section__boton medium-button">Comentar en twitter</button>
+            </div>
+            <hr class="main-section__linea">
+        </section>
+        <section class="contacto container" id="contacto">
+            <div class="contacto__contenedor row">
+                <div class="contacto__imagen col-12 col-md-4">
+                    <div class="normal-thumbnails">
+                        <img src="assets/img/naomi-thai.png" style="width: 222px;">
+                    </div>
+                </div>
+                <div class="contacto__info col-12 col-md-4">
+                    <h2 class="contacto__nombre">Naomi Thai</h2>
+                    <a href="#contacto" class="contacto__link link-primary">@Naothai.depelos.com</a>
+                </div>
+                <div class="contacto__parrafo col-12 col-md-4 d-none d-md-block">
+                    <p class="contacto__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sint enim, excepturi odit explicabo praesentium laborum fuga ad quas.</p>
+                </div>
+            </div>
+        </section>
+        <div class="pagination">
+            <div class="pagination__contenedor">
+                <button class="boton-anterior">Anterior</button>
+                <button class="boton-numero">1</button>
+                <button class="boton-numero">2</button>
+                <button class="boton-numero">3</button>
+                <button class="boton-siguiente">Siguiente</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="assets/img/logo.png" class="footer__logo">
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+</body>
+</html>

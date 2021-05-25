@@ -1,0 +1,81 @@
+nav{
+    background-color: #373a3c;
+}
+
+main{
+    margin: 30px 50px;
+}
+section{
+    border-top: 2px solid gray;
+    padding-top: 30px;
+}
+.opciones{
+    flex-grow: 0 !important;
+}
+.linea{
+    border:2px solid black;
+}
+.card-body{
+    padding-left: 30px;
+}
+.card-title{
+    text-transform: uppercase;
+}
+.card-text{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.boton1{
+    margin-right:30px;
+}
+.imagen-container{
+    width: 100%;
+}
+
+.carousel-indicators{
+    bottom:-60px;
+}
+.boton-carrusel{
+    width: 10px !important;
+    height: 10px !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    background-color: black !important;
+}
+.recetas{
+    margin-top: 70px;
+}
+.footer-text{
+    background-color: #dc3545;
+    height: 350px;
+    padding: 100px 0px;
+}
+.titulo-footer{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto-footer{
+    color: white;
+    font-size: 26px;
+}
+.logo{
+    font-family: "lobster";
+}
+
+.footer-logo{
+    background-color: #373a3c;
+    height: 160px;
+    padding-top: 50px;
+}
+.logo-final{
+    color: white;
+    font-family: "lobster";
+    font-size: 35px;
+    text-align: center;
+}
+.navbar-brand{
+    color: white;
+    font-family: "lobster";
+    font-size: 30px;
+}

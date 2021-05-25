@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+.bandera {
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+  border: 1px solid black;
+}
+.esp1 {
+  background-color: red;
+  height: 25%;
+}
+.esp2 {
+  background-color: yellow;
+  height: 50%;
+}
+.esp3 {
+  background-color: red;
+  height: 25%;
+}
+
+.din1 {
+  background-color: red;
+  height: 45%;
+  width: 177px;
+}
+
+.din2 {
+  background-color: red;
+  height: 19%;
+  width: 292px;
+  margin-right: 0px;
+  position: absolute;
+  top: 29px;
+  left: 779px;
+}
+
+.din3 {
+  background-color: red;
+  height: 45%;
+  width: 177px;
+  margin-top: 30px;
+}
+.din4 {
+  background-color: red;
+  height: 19%;
+  width: 292px;
+  margin-right: 0px;
+  position: absolute;
+  top: 195px;
+  left: 779px;
+}
+.emi1 {
+  background-color: green;
+  height: 33.33%;
+  margin-left: 100px;
+}
+.emi2 {
+  background-color: white;
+  height: 33.33%;
+  margin-left: 100px;
+}
+.emi3 {
+  background-color: black;
+  height: 33.33%;
+  margin-left: 100px;
+}
+.emi4 {
+  background-color: red;
+  height: 99.9%;
+  width: 100px;
+  margin-right: -9px;
+  position: relative;
+  top: -300px;
+}
+.jap {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 109px;
+  left: 203px;
+  border-radius: 50px;
+}

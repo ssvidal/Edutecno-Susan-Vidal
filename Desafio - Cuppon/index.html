@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/bootstrap.min.css"
+    />
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <!--font robototo-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/54d6db130e.js" crossorigin="anonymous"></script>
+    <title>Cupon</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-success">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4">
+          <h5 class="text-white h4">Cuppon</h5>
+        </div>
+      </div>
+      <div class="container-fluid flex-row-reverse">
+        <button
+          class="navbar-toggler border-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo-white.png" alt="logo-white" width="86" height="25">
+        </a>
+      </div>
+    </nav>
+
+    <section class="container-fluid mt-3 d-flex flex-column align-items-center">
+        <div class="card mb-4" style="width: 18rem;">
+            <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="cupon-1">
+            <div class="card-body">
+              <h5 class="card-title titulo">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+              <p class="card-text lh-sm parrafo">Plumones Manolino.</p>
+              <p class="card-text lh-sm parrafo"><i class="fas fa-map-marker-alt"></i> 9191 Avenida Vitacura, Chile</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text lh-sm parrafo text-end"> $45.990<strong class="precio-oferta text-success m-2">$22.990</strong></p>
+
+            </div>
+          </div>
+        <div class="card mb-4" style="width: 18rem;">
+            <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="cupon-3">
+            <div class="card-body">
+              <h5 class="card-title titulo">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+              <p class="card-text lh-sm parrafo">Clínica Dental Quijada</p>
+              <p class="card-text lh-sm parrafo"><i class="fas fa-map-marker-alt"></i>1342, Blanco Encalada, Chile</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text lh-sm parrafo text-end">$300.000<strong class="precio-oferta text-success m-2">$25.990</strong></p>
+
+            </div>
+          </div>
+        <div class="card mb-4" style="width: 18rem;">
+            <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="cupon-4">
+            <div class="card-body">
+              <h5 class="card-title titulo">Colación para 2 personas + postre (no incluye bebidas)</h5>
+              <p class="card-text lh-sm parrafo">Suricata almacen</p>
+              <p class="card-text lh-sm parrafo"><i class="fas fa-map-marker-alt"></i>1071 Miguel Claro, Chile</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text lh-sm parrafo text-end">$4.200<strong class="precio-oferta text-success m-2">$2.100</strong></p>
+
+            </div>
+          </div>
+        <div class="card mb-4" style="width: 18rem;">
+            <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="cupon-5">
+            <div class="card-body">
+              <h5 class="card-title titulo">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+              <p class="card-text lh-sm parrafo">Stukids Centro de Eventos</p>
+              <p class="card-text lh-sm parrafo"><i class="fas fa-map-marker-alt"></i>133 El tranque, Chile</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text lh-sm parrafo text-end">$4.000<strong class="precio-oferta text-success m-2">$2.500</strong></p>
+
+            </div>
+          </div>
+        <div class="card mb-4" style="width: 18rem;">
+            <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="cupon-6">
+            <div class="card-body">
+              <h5 class="card-title titulo">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+              <p class="card-text lh-sm parrafo">D-Latam Travel</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text lh-sm parrafo text-end">$80.200<strong class="precio-oferta text-success m-2">$44.100</strong></p>
+            </div>
+          </div>
+    </section>
+
+    <div class="container-fluid mt-3 bg-success">
+        <form class="py-4">
+            <h2 class="text-light text-center fs-4 mb-4">Recibe cupones en tu correo</h2>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Correo Electronico" aria-describedby="emailHelp">
+            </div>
+            <div class="d-flex justify-content-center">
+
+                <button type="submit" class="btn btn-light px-4">Enviar</button>
+            </div>
+          </form>
+    </div>
+
+    <footer class="container-fluid my-4">
+        <a class="navbar-brand d-flex justify-content-center" href="#">
+            <img src="./assets/img/logo-black.png" alt="logo-black" width="82" height="24">
+        </a>
+        <p class="parrafo text-center">© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

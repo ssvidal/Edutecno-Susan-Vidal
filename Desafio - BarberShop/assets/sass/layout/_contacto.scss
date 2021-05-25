@@ -1,0 +1,28 @@
+
+    .contacto__contenedor{
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        .contacto__info{
+
+            .contacto__nombre{
+                font-family: $playfair;
+                font-size: $x-large;
+                font-weight: bold;
+                font-style: italic;
+                margin: 10px 30px;
+            }
+            .contacto__link{
+                width: 140px;
+            }
+        }
+        .contacto__parrafo{
+
+            .contacto__texto{
+                font-size: $large;
+                font-family: $roboto;
+                letter-spacing: 2px;
+                font-weight: 100;
+            }
+        }
+    }
