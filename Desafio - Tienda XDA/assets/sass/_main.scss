@@ -1,0 +1,17 @@
+//utils
+@import "./utils/variables";
+
+//layout
+@import "./layout/nav";
+@import "./layout/main";
+@import "./layout/hero";
+@import "./layout/suscribir";
+@import "./layout/info";
+@import "./layout/newsletter"; 
+
+//base
+@import "./base/reset";
+
+//components
+@import "./components/buttons";
+@import "./components/inputs";

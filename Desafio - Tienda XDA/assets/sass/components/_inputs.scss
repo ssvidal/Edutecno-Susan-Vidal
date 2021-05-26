@@ -1,0 +1,7 @@
+.text-input{
+    padding: 5px 10px;
+    width: 210px;
+    &::placeholder{
+        color:$smoky-black;
+    }
+}

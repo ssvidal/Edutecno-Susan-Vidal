@@ -1,0 +1,35 @@
+.newsletter {
+  background: black;
+  padding: 20px 60px;
+  @media screen and (max-width: $tablet) {
+      padding: 20px 100px;
+  }
+  @media screen and (max-width: $mobile) {
+      padding: 15px 20px;
+  }
+  .newsletter__title {
+    color: white;
+    font-family: "Old Standard TT";
+    text-transform: capitalize;
+    font-size: 30px;
+    @media screen and (max-width: $tablet) {
+      font-size: $xx-large;
+      margin: 10px 0px;
+    }
+  }
+  .newsletter__text {
+    color: $white;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-family: $old-standard;
+    @media screen and (max-width: $tablet) {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+  }
+  input {
+    @media screen and (max-width: $tablet) {
+      width: 80%;
+    }
+  }
+}

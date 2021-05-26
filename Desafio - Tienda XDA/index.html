@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--GoogleFont-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Importar estilos css-->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tienda XDA</title>
+  </head>
+  <body>
+    <nav class="navbar" id="nav">
+      <div class="navbar__mobile">
+        <div class="navbar__logo">
+          <h2 class="navbar__icon">XDA</h2>
+        </div>
+        <div class="navbar__collapse">
+          <button class="navbar__collapse-button" onclick="MostrarOcultarNav()">
+            <img
+              src="./assets/img/lineas.png"
+              class="navbar__collapse-lineas"
+            />
+          </button>
+        </div>
+      </div>
+      <ul class="navbar__list" id="lista">
+        <li class="navbar__item-list"><a href="#">Mujer</a></li>
+        <li class="navbar__item-list"><a href="#">Hombre</a></li>
+        <li class="navbar__item-list"><a href="#">Accesorios</a></li>
+        <li class="navbar__item-list"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    <main class="main-grid">
+      <section class="hero-section">
+        <img class="hero-section__img" src="./assets/img/imagen1.png" />
+      </section>
+      <div class="grid">
+        <section class="info">
+          <h1 class="info__title">lorem impsum ad valorem</h1>
+          <p class="info__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            repudiandae sit quasi, ex reiciendis sed expedita maiores at
+          </p>
+          <button class="info__button button-normal">Ir a tienda</button>
+        </section>
+        <div class="grid-footer">
+          <div class="newsletter">
+            <h2 class="newsletter__title">newsletter</h2>
+            <p class="newsletter__text">correo electronico</p>
+            <input class="newsletter__input text-input" placeholder="Ingresa tu correo electronico"/>
+          </div>
+          <aside class="suscribir">
+            <p class="suscribir__text">Suscribir</p>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!--Importar mi js-->
+    <script src="./assets//js/main.js"></script>
+  </body>
+</html>

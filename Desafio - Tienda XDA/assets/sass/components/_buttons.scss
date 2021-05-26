@@ -1,0 +1,35 @@
+.button-normal {
+  background: $white;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: $raleway;
+  color: $smoky-black;
+  border: 2px solid $smoky-black;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $quick-silver;
+  }
+  &:focus {
+    border: 2px solid $quick-silver;
+    color: $quick-silver;
+  }
+}
+
+.button-small {
+  background: $white;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-family: $raleway;
+  color: $smoky-black;
+  border: 2px solid $smoky-black;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $quick-silver;
+  }
+  &:focus {
+    border: 2px solid $quick-silver;
+    color: $quick-silver;
+  }
+}
