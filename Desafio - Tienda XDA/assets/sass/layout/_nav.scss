@@ -21,18 +21,19 @@
       height: 100%;
       width: 100px;
       background-color: $smoky-black;
+      text-align: center;
       @media screen and (max-width: $mobile) {
         margin-right: 45%;
       }
 
       .navbar__icon {
         margin: 0;
-        color: $white;
-        text-align: center;
         line-height: 100px;
         font-size: $xx-large;
+        color: $white;
         font-family: $old-standard;
-        border: 1px solid $white;
+        border: none;
+        text-decoration: none;
       }
     }
   }
@@ -45,6 +46,13 @@
 
     @media screen and (max-width: $mobile) {
       display: none;
+      position: absolute;
+      z-index: 10;
+      background: white;
+      width: 100%;
+      margin: 0px;
+      border: 1px solid black;
+      top: 100px;
     }
 
     .navbar__item-list {

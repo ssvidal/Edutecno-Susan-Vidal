@@ -1,9 +1,9 @@
 .info {
   padding: 40px;
-  @media screen and (max-width:$tablet) {
+  @media screen and (max-width: $tablet) {
     padding: 20px 120px;
   }
-  @media screen and (max-width:$mobile) {
+  @media screen and (max-width: $mobile) {
     padding: 20px;
   }
 
@@ -11,21 +11,21 @@
     font-size: $xxx-large;
     margin-top: 0;
     margin-bottom: 20px;
-    @media screen and (max-width:$tablet) {
-        font-size: 70px;
+    @media screen and (max-width: $tablet) {
+      font-size: 60px;
     }
-    @media screen and (max-width:$mobile) {
-        font-size: $xx-large;
+    @media screen and (max-width: $mobile) {
+      font-size: $xx-large;
     }
   }
-  .info__text{
-      width: 270px;
-      margin-bottom: 80px;
-      @media screen and (max-width:$tablet) {
-        margin-bottom: 20px;
-      }
-      @media screen and (max-width:$mobile) {
-        margin: 10px;
-      }
+  .info__text {
+    width: 270px;
+    margin-bottom: 80px;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: $mobile) {
+      margin: 10px;
+    }
   }
 }
