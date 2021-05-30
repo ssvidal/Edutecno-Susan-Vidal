@@ -1,0 +1,40 @@
+.sidebar {
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
+  .sidebar__title {
+    border-bottom: 1px solid gray;
+    h1 {
+      margin: $spacing-small;
+    }
+  }
+  .sidebar__tags {
+    border-bottom: 1px solid gray;
+    h1 {
+      margin: $spacing-small;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      li {
+        padding: 2px 4px;
+        background-color: steelblue;
+        margin: 0 10px;
+        color: white;
+      }
+    }
+  }
+  .sidebar__news {
+    margin-bottom: 50px;
+    h1 {
+      margin: $spacing-small;
+    }
+
+    .sidebar__item {
+      img {
+        padding: 0 10px;
+      }
+    }
+  }
+}

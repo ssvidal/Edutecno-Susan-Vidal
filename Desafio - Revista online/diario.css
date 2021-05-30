@@ -1,0 +1,178 @@
+.grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 0 20px;
+}
+@media screen and (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.nav .nav__logo {
+  width: 20%;
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+@media screen and (max-width: 576px) {
+  .nav .nav__logo {
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
+.nav .nav__options {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav .nav__options .nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav .nav__options .nav__list .nav__item {
+  margin: 0 10px;
+}
+@media screen and (max-width: 576px) {
+  .nav .nav__options .nav__list .nav__item {
+    margin: 0 5px;
+  }
+}
+.nav .nav__options .nav__list .nav__item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+@media screen and (max-width: 576px) {
+  .nav .nav__options .nav__list .nav__item a {
+    font-size: 14px;
+  }
+}
+.nav .nav__options .nav__list .nav__item .nav__input {
+  height: 24px;
+  width: 200px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 576px) {
+  .nav .nav__options .nav__list .nav__item .nav__input {
+    width: 80px;
+    height: 18px;
+  }
+}
+
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-right: 25px;
+}
+@media screen and (max-width: 768px) {
+  .noticias {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .noticias {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
+.sidebar .sidebar__title {
+  border-bottom: 1px solid gray;
+}
+.sidebar .sidebar__title h1 {
+  margin: 10px 0;
+}
+.sidebar .sidebar__tags {
+  border-bottom: 1px solid gray;
+}
+.sidebar .sidebar__tags h1 {
+  margin: 10px 0;
+}
+.sidebar .sidebar__tags ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.sidebar .sidebar__tags ul li {
+  padding: 2px 4px;
+  background-color: steelblue;
+  margin: 0 10px;
+  color: white;
+}
+.sidebar .sidebar__news {
+  margin-bottom: 50px;
+}
+.sidebar .sidebar__news h1 {
+  margin: 10px 0;
+}
+.sidebar .sidebar__news .sidebar__item img {
+  padding: 0 10px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer .footer__newsletter {
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer .footer__newsletter h2 {
+  font-size: 24px;
+}
+@media screen and (max-width: 576px) {
+  .footer .footer__newsletter h2 {
+    font-size: 20px;
+  }
+}
+.footer .footer__newsletter .footer__group input,
+.footer .footer__newsletter .footer__group button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.footer .footer__newsletter .footer__group button {
+  background-color: coral;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  margin: 0px;
+}
+
+.card {
+  margin: 5px;
+  cursor: pointer;
+}
+.card .card__body img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 5px;
+}
+.card .card__body p {
+  padding: 5px 10px;
+}
+
+/*# sourceMappingURL=diario.css.map */
