@@ -1,0 +1,18 @@
+.banner{
+    height: 285px;
+    overflow: hidden;
+    @media screen and (max-width: $mobile) {
+        height: 105px;
+        overflow: hidden;
+    }
+    .banner__img{
+        position: relative;
+        bottom: 120%;
+
+        @media screen and (max-width: $mobile) {
+            width: 100%;
+            position: relative;
+            bottom: 100%;
+        }
+    }
+}
