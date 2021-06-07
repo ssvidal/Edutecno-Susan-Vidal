@@ -1,0 +1,60 @@
+.otros{
+    margin: 10px;
+    padding: 15px 10px;
+    border: 1px solid $black;
+
+    .otros__avatar{
+        width: 150px;
+        height: 150px;
+        border: 1px solid $black;
+        border-radius: 75px;
+        margin: 0 auto;
+        overflow: hidden;
+
+        .otros__img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .otros__title{
+        margin-top: 10px;
+        text-align: center;
+        font-size: $large;
+        font-weight: bold;
+    }
+    .otros__icons{
+        display: flex;
+        justify-content: center;
+        i{
+            font-size: $large;
+            margin: 0 10px;
+        }
+    }
+    .otros__parrafo{
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    .otros__mas-cursos{
+        background-color: $charcoal;
+        color: $white;
+        font-size: $large;
+        text-align: center;
+        font-family: $poppins;
+    }
+    .otros__list{
+        li{
+            .otros__link{
+                text-decoration: none;
+            }
+        }
+    }
+    .otros__logo{
+       height: 200px;
+       display: flex;
+       justify-content: center;
+
+       svg{
+           height: 100%;
+       }
+    }
+}

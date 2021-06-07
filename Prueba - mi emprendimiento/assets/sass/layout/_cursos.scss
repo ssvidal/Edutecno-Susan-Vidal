@@ -1,0 +1,34 @@
+.cursos {
+  .cursos__card {
+    margin: 10px;
+    padding: 15px 10px;
+    border: 1px solid $black;
+
+    .cursos__img {
+      width: 100%;
+    }
+    .cursos__title {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .cursos__instructor {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .cursos__icons {
+      display: flex;
+      .cursos__icon {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+        margin: 0 5px;
+        color:$black;
+
+        &:hover{
+            color: $orange;
+        }
+      }
+    }
+  }
+}
